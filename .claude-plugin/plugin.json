@@ -1,5 +1,27 @@
 {
   "name": "android-design",
   "description": "Guides Claude to craft production-grade, visually distinctive Android application interfaces using Jetpack Compose and XML layouts, grounded in Material Design 3.",
-  "author": "moictab"
+  "version": "1.0.0",
+  "author": {
+    "name": "moictab",
+    "email": "moictab@users.noreply.github.com"
+  },
+  "keywords": [
+    "Android",
+    "Jetpack Compose",
+    "XML layout",
+    "Material Design 3",
+    "theme",
+    "screen",
+    "component",
+    "MaterialTheme",
+    "Scaffold",
+    "LazyColumn",
+    "ConstraintLayout",
+    "adaptive layout",
+    "foldable",
+    "tablet UI",
+    "accessibility",
+    "animation"
+  ]
 }
