@@ -12,7 +12,7 @@
       "author": {
         "name": "moictab"
       },
-      "source": "./plugins/android-design",
+      "source": ".",
       "category": "development"
     }
   ]

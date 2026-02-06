@@ -41,7 +41,7 @@ To auto-load the plugin on every Claude Code session:
 
 2. Inside Claude Code, add the marketplace and install the plugin:
    ```
-   /plugin marketplace add /path/to/android-design/.marketplace
+   /plugin marketplace add /path/to/android-design
    /plugin install android-design@moictab-plugins
    ```
 
@@ -58,14 +58,10 @@ You can also invoke it explicitly with `/android-design`.
 ```
 .claude-plugin/
   plugin.json            # Plugin manifest
+  marketplace.json       # Marketplace manifest for persistent install
 skills/
   android-design/
     SKILL.md             # Core skill instructions
-.marketplace/
-  .claude-plugin/
-    marketplace.json     # Marketplace manifest for persistent install
-  plugins/
-    android-design/      # Plugin copy for marketplace resolution
 ```
 
 ## Author
