@@ -1,5 +1,4 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "moictab-plugins",
   "description": "Custom Claude Code plugins by moictab",
   "owner": {
@@ -12,7 +11,8 @@
       "author": {
         "name": "moictab"
       },
-      "source": ".",
+      "version": "1.0.0",
+      "source": "./",
       "category": "development"
     }
   ]
